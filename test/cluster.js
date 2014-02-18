@@ -4,7 +4,7 @@ var control = require('strong-cluster-control');
 var sandbox = require('./helpers/sandbox');
 var spawnCliInCwd = require('./helpers/runner').spawnCliInCwd;
 
-describe('cluster control cli', function() {
+describe.skip('cluster control cli', function() {
   beforeEach(sandbox.reset);
 
   it('returns status from master', function (done) {
